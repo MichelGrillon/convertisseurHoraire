@@ -1,0 +1,102 @@
+h1 {
+	text-align: center;
+	color: #0074d9;
+}
+
+h3 {
+	color: #0074d9;
+}
+
+p {
+	text-align: center;
+}
+fieldset {
+    width: 18em;
+    justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+fieldset legend {
+    text-align: center;
+}
+
+/* Styles pour le formulaire de converssion */
+#convertisseurForm {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style pour les div contenant les champs du formulaire */
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Style pour les champs d'entrée (input et select) */
+input,
+select {
+	justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 33%;
+    text-align: center;
+	align-items: center;
+	color: #0074d9;
+	margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* Style pour les boutons */
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    margin: 2px;
+    /* Réduisez cette marge pour rapprocher davantage les boutons */
+    cursor: pointer;
+}
+
+/* Style pour centrer les boutons horizontalement et les aligner côte à côte */
+#convertButton,
+#clearButton {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* Ajoutez un conteneur pour les boutons */
+.button-container {
+    text-align: center;
+}
+
+/* Style pour le conteneur des boutons */
+.button-container {
+    margin-top: 20px;
+    /* Ajustez la marge selon vos préférences */
+}
+#errorMessage {
+    color: red;
+}
+
+footer {
+	text-align: center;
+}
